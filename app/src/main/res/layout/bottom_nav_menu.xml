@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuPendapatan"
+        android:icon="@drawable/ic_pendapatan"
+        android:title="Pendapatan"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuPengeluaran"
+        android:icon="@drawable/ic_pengeluaran"
+        android:title="Pengeluaran"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuAset"
+        android:icon="@drawable/ic_aset"
+        android:title="Aset"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuKategori"
+        android:icon="@drawable/ic_kategori"
+        android:title="Kategori"
+        app:showAsAction="ifRoom" />
+</menu>
