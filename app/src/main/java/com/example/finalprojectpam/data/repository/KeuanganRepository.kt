@@ -22,7 +22,7 @@ class KeuanganRepository {
         return asetList
     }
 
-    fun getAsetById(idAset: Int): Aset? {
+    fun getAsetById(idAset: String): Aset? {
         return asetList.find { it.idAset == idAset }
     }
 
@@ -35,7 +35,7 @@ class KeuanganRepository {
         return kategoriList
     }
 
-    fun getKategoriById(idKategori: Int): Kategori? {
+    fun getKategoriById(idKategori: String): Kategori? {
         return kategoriList.find { it.idKategori == idKategori }
     }
 
