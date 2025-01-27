@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvSaldo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Saldo:"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="Suspicious0dp" />
+
+    <Button
+        android:id="@+id/btnPendapatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pendapatan"
+        app:layout_constraintTop_toBottomOf="@id/tvSaldo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPengeluaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengeluaran"
+        app:layout_constraintTop_toBottomOf="@id/btnPendapatan"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnAset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aset"
+        app:layout_constraintTop_toBottomOf="@id/btnPengeluaran"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        app:layout_constraintTop_toBottomOf="@id/btnAset"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>
