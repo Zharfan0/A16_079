@@ -5,28 +5,21 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/tvSaldo"
+    <EditText
+        android:id="@+id/etNamaAset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saldo: Rp0"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:gravity="center" />
+        android:hint="Nama Aset" />
 
-    <TextView
-        android:id="@+id/tvTotalPendapatan"
+    <EditText
+        android:id="@+id/etKategoriAset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Total Pendapatan: Rp0"
-        android:textSize="16sp"
-        android:layout_marginTop="16dp" />
+        android:hint="Kategori Aset" />
 
-    <TextView
-        android:id="@+id/tvTotalPengeluaran"
+    <Button
+        android:id="@+id/btnSimpan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Total Pengeluaran: Rp0"
-        android:textSize="16sp"
-        android:layout_marginTop="8dp" />
+        android:text="Simpan" />
 </LinearLayout>
