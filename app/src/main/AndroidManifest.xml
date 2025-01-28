@@ -27,25 +27,21 @@
             </intent-filter>
         </activity>
 
-        <!-- AddKategoriActivity -->
         <activity
             android:name=".ui.kategori.AddKategoriActivity"
             android:exported="false"
             android:theme="@style/Theme.FinalProjectPAM" />
 
-        <!-- AddPendapatanActivity -->
         <activity
             android:name=".ui.pendapatan.AddPendapatanActivity"
             android:exported="false"
             android:theme="@style/Theme.FinalProjectPAM" />
 
-        <!-- AddPengeluaranActivity -->
         <activity
             android:name=".ui.pengeluaran.AddPengeluaranActivity"
             android:exported="false"
             android:theme="@style/Theme.FinalProjectPAM" />
 
-        <!-- AddAsetActivity -->
         <activity
             android:name=".ui.aset.AddAsetActivity"
             android:exported="false"
