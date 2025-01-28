@@ -4,4 +4,7 @@ data class Aset(
     val idAset: String,
     val namaAset: String,
     val kategori: String
-)
+){
+    // Constructor tanpa argumen
+    constructor() : this("", "", "")
+}
