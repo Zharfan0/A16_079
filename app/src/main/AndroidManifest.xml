@@ -4,7 +4,6 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,6 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProjectPAM"
         tools:targetApi="31">
+
+        <!-- MainActivity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -22,10 +23,33 @@
             android:theme="@style/Theme.FinalProjectPAM">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <!-- AddKategoriActivity -->
+        <activity
+            android:name=".ui.kategori.AddKategoriActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FinalProjectPAM" />
+
+        <!-- AddPendapatanActivity -->
+        <activity
+            android:name=".ui.pendapatan.AddPendapatanActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FinalProjectPAM" />
+
+        <!-- AddPengeluaranActivity -->
+        <activity
+            android:name=".ui.pengeluaran.AddPengeluaranActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FinalProjectPAM" />
+
+        <!-- AddAsetActivity -->
+        <activity
+            android:name=".ui.aset.AddAsetActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FinalProjectPAM" />
+
+    </application>
 </manifest>
